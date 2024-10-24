@@ -13,10 +13,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+/*** Servlet implementation class Login*/
 
-/**
- * Servlet implementation class Login
- */
 @WebServlet("/login")
 public class Login extends HttpServlet {
 	
@@ -42,7 +40,7 @@ public class Login extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userregistration?useSSL=false","root","rootharryA@");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userregistration?useSSL=false","YOUR_USERNAME","YOUR_PASSWORD");
 			PreparedStatement pst = con.prepareStatement("select * from users where uemail = ? and upwd = ?");
 			pst.setString(1, uemail);
 			pst.setString(2, upwd);
