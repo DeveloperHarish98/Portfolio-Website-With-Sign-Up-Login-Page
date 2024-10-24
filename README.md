@@ -36,3 +36,10 @@
      - After signing up, they can log in to view the portfolio.
    - **Delete Account**: Users can delete their accounts, removing their data from the database.
    - **Portfolio Access**: Available only after logging in.
+
+ **Login Page**
+![1](https://github.com/user-attachments/assets/9e627756-5466-4b43-94c7-b26058802623)
+ **Sign-up Page** 
+![2](https://github.com/user-attachments/assets/720f89e7-136f-4483-afcc-17bd159c3352)
+ **Delete Page**
+![3](https://github.com/user-attachments/assets/cac8f64f-ec0c-437f-9336-a9b96a8113b8)
