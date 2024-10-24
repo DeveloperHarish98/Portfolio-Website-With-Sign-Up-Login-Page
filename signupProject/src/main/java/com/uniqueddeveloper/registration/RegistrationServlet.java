@@ -59,9 +59,7 @@ public class RegistrationServlet extends HttpServlet {
 				request.setAttribute("status", "invalidMobileNumber");
 				dispatcher = request.getRequestDispatcher("registration.jsp");
 				dispatcher.forward(request, response);
-			}
-		
-		try {
+		}try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userregistration?useSSL=false","root","rootharryA@");
 			PreparedStatement pst = con.prepareStatement("insert into users(uname,upwd,uemail,umobile) values(?,?,?,?) ");
@@ -73,8 +71,7 @@ public class RegistrationServlet extends HttpServlet {
 			int rowCount = pst.executeUpdate();
 			dispatcher = request.getRequestDispatcher("registration.jsp");
 			if (rowCount > 0) {
-				request.setAttribute("status","success");
-				
+				request.setAttribute("status","success");		
 		}else {
 			request.setAttribute("status","failed");
 		}
@@ -87,6 +84,7 @@ public class RegistrationServlet extends HttpServlet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-	  }
-	}
+		
+	    }
+       }
 }
