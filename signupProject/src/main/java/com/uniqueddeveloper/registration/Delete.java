@@ -52,7 +52,7 @@ public class Delete extends HttpServlet {
         try {
             // Establish the database connection
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userregistration?useSSL=false","root","rootharryA@");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userregistration?useSSL=false","YOUR_USERNAME","YOUR_PASSWORD");
 
             // Create the SQL statement to delete user
             PreparedStatement pst = con.prepareStatement("DELETE FROM users WHERE uemail = ? AND upwd = ?");
@@ -69,13 +69,12 @@ public class Delete extends HttpServlet {
             } else {
                 request.setAttribute("status", "failed");
             }
-
             // Forward the request back to the JSP page
             dispatcher = request.getRequestDispatcher("delete.jsp");
             dispatcher.forward(request, response);
-            
-        } catch (Exception e) {
-            e.printStackTrace();
+            } 
+            catch (Exception e) {
+                e.printStackTrace();
         }
     }
 }
