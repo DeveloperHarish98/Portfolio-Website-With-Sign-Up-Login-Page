@@ -59,9 +59,10 @@ public class RegistrationServlet extends HttpServlet {
 				request.setAttribute("status", "invalidMobileNumber");
 				dispatcher = request.getRequestDispatcher("registration.jsp");
 				dispatcher.forward(request, response);
+			//userregistration
 		}try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userregistration?useSSL=false","YOUR_USERNAME","YOUR_PASSWORD");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/*************?useSSL=false","YOUR_USERNAME","YOUR_PASSWORD");
 			PreparedStatement pst = con.prepareStatement("insert into users(uname,upwd,uemail,umobile) values(?,?,?,?) ");
 			pst.setString(1, uname);
 			pst.setString(2, upwd);
