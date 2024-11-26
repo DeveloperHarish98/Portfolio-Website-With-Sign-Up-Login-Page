@@ -12,6 +12,15 @@
    - **Database**: MySQL
    - **Tools**: Eclipse IDE, MySQL Workbench
 
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/-Hibernate-4E1A25?style=flat-square&logo=hibernate&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Apache Tomcat](https://img.shields.io/badge/-Apache%20Tomcat-F8DC75?style=flat-square&logo=apache-tomcat&logoColor=white)
+
 #### 3. **Installation Instructions**
    - **Prerequisites**: 
      - Java Development Kit (JDK)
@@ -43,15 +52,3 @@
 ![2](https://github.com/user-attachments/assets/720f89e7-136f-4483-afcc-17bd159c3352)
  **Delete Page**
 ![3](https://github.com/user-attachments/assets/cac8f64f-ec0c-437f-9336-a9b96a8113b8)
-
-#### **Technologies used**
-
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![Hibernate](https://img.shields.io/badge/-Hibernate-4E1A25?style=flat-square&logo=hibernate&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Apache Tomcat](https://img.shields.io/badge/-Apache%20Tomcat-F8DC75?style=flat-square&logo=apache-tomcat&logoColor=white)
-
